@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(250, 245, 204);
+  font-family: 'Pangolin', cursive;
+}
+
+header{
+  margin: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+h1{
+  margin: 20px;
+  font-size: 1.6em;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+section{
+  float: left;
+  margin: 20px 0 20px 0;
+  background-color: rgba(231, 230, 152, 0.452);
+  padding: 10px ;
+}
+.navbar{
+  font-size: 1.6em;
+  background-color: rgb(228, 190, 21);
+}
+
+.nav-item{
+  visibility: hidden;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+@media (max-width: 991px){
+  .nav-item{
+    visibility: visible;
+  }
+}
